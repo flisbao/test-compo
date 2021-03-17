@@ -9,7 +9,7 @@ export default function Home() {
   useEffect(async () => {
     const result = await fetch('https://605219e1fb49dc00175b7892.mockapi.io/users')
     const data = await result.json()
-    setName(data[0].name)
+    setName(data[1].name)
   })
 
   return (
@@ -24,7 +24,6 @@ export default function Home() {
           Welcome to our page { name }
         </h1>
       </main>
-
     </div>
   )
 }

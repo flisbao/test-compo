@@ -1,0 +1,4 @@
+toggle_config_all_true:
+  ft-teste: true
+toggle_config_like_prod:
+  ft-teste: false

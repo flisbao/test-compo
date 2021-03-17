@@ -1,0 +1,7 @@
+request:
+  timeout: 8
+domains:
+  'https://605219e1fb49dc00175b7892.mockapi.io/':
+    name: 'users'
+    paths:
+      - /users/
